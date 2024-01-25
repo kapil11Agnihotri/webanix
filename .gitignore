@@ -1,0 +1,25 @@
+# Ignore Next.js build output
+.next/
+
+# Ignore build artifacts
+out/
+
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore logs
+logs/
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn.lock file
+yarn.lock

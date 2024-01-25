@@ -1,0 +1,141 @@
+.wholeProductsSection{
+  background-color: #F2F4F7;
+  
+}
+
+.productsHeading {
+  height: 75px;
+}
+
+.productsSection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  flex-direction: column;
+  background-color: #f1f4f7;
+  padding: 0px 40px;
+  
+  text-align: left;
+}
+
+.productsSpaceUpper {
+  height: 20px;
+}
+
+.productSpaceBottom{
+  height: 80px;
+}
+
+.mainHeading {
+  margin: 0px 40px;
+  line-height: 30px;
+  letter-spacing: 3px;
+  font-size: 24px;
+  font-weight: 500;
+  color:#232323;
+}
+
+.headingText {
+  font-size: 18px;
+  margin: 18px 40px;
+  color: #4E5B6C;
+  line-height: 25px;
+}
+
+.productsCardList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  gap: 1.5%;
+  margin: 0px 40px;
+  padding: 0px 40px;
+  
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 125%;
+}
+@media (min-width: 1441px) {
+  .mainHeading{
+    margin: 0px 100px;
+  }
+  .headingText{
+    margin: 18px 100px;
+  }
+  .productsSection{
+    padding: 0 175px;
+  }
+  .productsCardList{
+    margin: 0px 240px;
+  }
+}
+
+@media (max-width: 1440px){
+  .productsCardList{
+    margin: 0px 100px;
+  }
+  .productsSection{
+    padding: 0 100px;
+  }
+}
+@media (max-width: 1280px){
+  .productsCardList{
+    margin: 0px 30px;
+  }
+  .productsSection{
+    padding: 0 30px;
+  }
+}
+@media (max-width: 1025px) {
+  .productsSection{
+    padding: 0px 40px;
+  }
+
+  .productsCardList {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 40px;
+    margin: 0px;
+  }
+
+  .card {
+    width: 48%;
+    margin-top: 2%;
+  }
+    .mainHeading{
+    margin: 0px;
+  }
+
+  .headingText{
+    margin: 18px 0px;
+  }
+}
+@media (max-width: 769px) {
+  
+
+  .productsSection {
+    padding: 0px 40px;
+  }
+  .card {
+    width: 100%;
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 576px) {
+    .productsSection {
+      padding: 0px 40px;
+      padding-bottom: 20px;
+    }
+  .card {
+    width: 100%;
+    margin-top: 5%;
+  }
+}
+

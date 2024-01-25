@@ -1,0 +1,139 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  width: 100%;
+  background: #ff6e7f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #bfe9ff,
+    #ff6e7f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #bfe9ff,
+    #ff6e7f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cardHeading {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: unset;
+}
+.cardText {
+  text-align: center;
+  color: #474747;
+  font-weight: unset;
+  font-size: 14px;
+  margin: 0;
+}
+
+.loginCard {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 25px 35px rgba(129, 124, 124, 0.7);
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  width: 380px;
+  height: 350px;
+  margin-top: 1%;
+  border-radius: 7px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.input label {
+  display: block;
+  font-size: 14px;
+  font-weight: unset;
+}
+
+.email,
+.pass {
+  width: 100%;
+  padding: 5px 10px;
+  font-weight: unset;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #484848;
+  font-size: 0.9rem;
+  margin-top: 1%;
+
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.forgotPass {
+  text-decoration: none;
+  font-weight: unset;
+  font-size: 14px;
+  text-align: right;
+  color: red;
+  margin-top: 1%;
+}
+
+.btn {
+  border: none;
+  text-decoration: none;
+  background-color: #fe4550;
+  padding: 8px 8px;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 3px;
+
+  text-align: center;
+  margin: 2%;
+  cursor: pointer;
+  margin-left: 0%;
+}
+
+.btn:hover {
+  background-color: #fa656f;
+}
+
+.email:focus {
+  outline: none;
+}
+.pass:focus {
+  outline: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logoImg {
+  width: 140px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-top: 3%;
+  font-size: 12px;
+}
+
+@media (max-width: 390px) {
+  .loginCard {
+    width: 300px;
+  }
+}

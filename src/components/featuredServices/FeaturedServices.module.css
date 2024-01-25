@@ -1,0 +1,194 @@
+.featuredServices {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding: 4% 6%;
+  flex-direction: column;
+  background-color: #F2F4F7;
+}
+
+.featuredHeading {
+    line-height: 30px;
+    letter-spacing: 3px;
+    font-size: 24px;
+    font-weight: unset;
+    color: #232323;
+     margin-left: 3%;
+
+}
+
+.headingText {
+ font-size: 18px;
+  margin-left: 3%;
+    color: #4E5B6C;
+    line-height: 25px;
+    font-weight: unset;
+}
+
+.cardsList {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  margin-top: 3%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dadce0;
+  border-radius: 3px;
+  width: 30%;
+  background-color: #ffffff;
+  height: 600px;
+}
+
+.cardUpper {
+  display: flex;
+  height: 40%;
+}
+
+.cardLower {
+  display: flex;
+  height: 60%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4%;
+}
+
+.cardHeading {
+  font-size: 1.5rem;
+  font-weight: unset;
+}
+
+.cardText {
+  font-weight: lighter;
+  font-size: 1rem;
+  color: #4e5b6c;
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+}
+
+.cardIcons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.cardIcon {
+  height: 35px;
+  width: 35px;
+  margin-right: 2%;
+}
+
+.learnMoreBtn {
+  text-decoration: none;
+  background-color: #fe4550;
+  padding: 8px 8px;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 3px;
+  width: 30%;
+  text-align: center;
+  margin: 2%;
+  margin-left: 0%;
+}
+.learnMoreBtn:hover {
+  color: #fe4550;
+  background-color:whitesmoke;
+}
+
+@media (max-width: 1320px) {
+  .featuredServices {
+    padding: 2%;
+  }
+  .cardHeading {
+    font-size: 1.2rem;
+  }
+
+  .cardText {
+    font-size: 0.9rem;
+  }
+
+  .card{
+    height: 530px;
+  }
+ 
+}
+
+@media (max-width: 1280px) {
+  .featuredServices {
+    padding: 1%;
+  }
+  .featuredServices{
+    padding: 8% 0%;
+}
+  
+
+  .learnMoreBtn {
+    width: 40%;
+  }
+
+  .cardUpper {
+    height: 35%;
+  }
+
+  .cardLower {
+    height: 65%;
+  }
+}
+
+@media (max-width: 850px) {
+  .card {
+    width: 50%;
+    margin-top: 3%;
+    height: 400px;
+  }
+
+
+  .cardsList {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 4%;
+  }
+   .cardHeading {
+    font-size: 1rem;
+  }
+
+  .cardText {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .card {
+    width: 100%;
+    margin-top: 3%;
+    height: unset;
+  }
+
+  .featuredServices {
+    margin-top: 3%;
+  }
+
+ 
+  .cardsList {
+    justify-content: center;
+    padding: 3%;
+  }
+}
+
+@media (max-width: 376px) {
+  .featuredHeading {
+    font-size: 20px;
+  }
+  .headingText {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,27 @@
+.invalidDataError {
+  color: red !important;
+  padding-left: 14px;
+  font-size: 10px;
+}
+
+.featuredCheckbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: grey;
+  font-size: 13px;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+
+@media(max-width: 576px){
+  .featuredCheckbox{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 320px){
+    .featuredCheckbox{
+      grid-template-columns: 1fr;
+    }
+  }

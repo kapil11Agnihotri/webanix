@@ -1,0 +1,26 @@
+.adminFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #dcdbdb;
+    padding: 5px 0px;
+    /* border-top: 0.5px solid rgba(0,0,0,0.2); */
+    height: 20px;
+}
+
+.footerLeft{
+    margin: 0;
+    font-weight: unset;
+    font-size: 9px;
+    color: #2c2c2c;
+    margin-left: 3%;;
+}
+
+.footerRight{
+    margin: 0;
+    font-weight: unset;
+    font-size: 9px;
+    color: #2c2c2c;
+    margin-right: 3%;
+}

@@ -1,0 +1,374 @@
+.aboutPage {
+  margin: 1% 10%;
+  color: #414141;
+}
+
+.aboutBanner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  position: relative;
+  top: 0%;
+}
+
+.aboutBannerLeft {
+  width: 40%;
+  height: 70%;
+  z-index: 5;
+  position: absolute;
+  left: 5%;
+  background-color: #ffffff;
+  padding: 3% 3% 5% 0%;
+}
+
+.aboutBannerRight {
+  width: 70%;
+}
+
+.aboutBannerImg {
+  width: 100%;
+}
+
+.bannerHeading {
+  margin: 0%;
+  font-weight: unset !important;
+  font-size: 4.2rem;
+}
+
+.bannerText {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.btn {
+  margin-top: 6%;
+  text-decoration: none;
+  width: 30%;
+  align-items: center;
+  background: #fe4550;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 2% 6%;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fe767f;
+}
+
+.aboutServices {
+  margin-top: 5%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  position: relative;
+  gap: 6%;
+  top: 0%;
+}
+.aboutServices::-webkit-scrollbar {
+  display: none;
+}
+
+.aboutServicesLeft {
+  width: 50%;
+  position: sticky;
+  top: 20%;
+  text-align: center;
+}
+
+.aboutServicesRight {
+  width: 40%;
+}
+
+.aboutServicesImg {
+  width: 70%;
+  object-fit: contain;
+}
+
+.aboutServicesHeading {
+  font-size: 1.5rem;
+  font-weight: unset;
+  margin: 2% 0%;
+}
+
+.servicesCardIcon {
+  font-size: 2rem;
+  color: #fe4550;
+  /* border: 1px solid #000000;
+    padding: 2px; */
+  /* border-radius: 50px; */
+}
+
+.servicesCardHeading {
+  font-size: 1.3rem;
+  margin: 1% 0%;
+  font-weight: unset;
+}
+
+.aboutServicesCard {
+  margin-top: 8%;
+}
+
+.quoteIcon {
+  font-size: 3.5rem;
+  color: #fe4550;
+}
+
+.taglineSection {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.taglineText {
+  width: 70%;
+  font-size: 2.1rem;
+  text-align: center;
+
+  line-height: 3rem;
+}
+
+.taglineText h3 {
+  font-weight: unset;
+  line-height: 3rem;
+}
+
+.blogsSection {
+  margin-top: 3%;
+}
+.blogsSectionHeading {
+  font-size: 1.5rem;
+  margin-left: 2%;
+  text-align: center;
+  font-weight: unset;
+}
+
+.blogsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.blogCard {
+  border: 1px solid #dddfe3;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px 16px 24px;
+  width: 28%;
+  margin: 1%;
+}
+.blogDate {
+  margin-right: 5%;
+}
+
+.blogCardUpper {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.blogCardLower {
+  display: flex;
+  align-items: center;
+}
+
+.blogCardText {
+  width: 70%;
+}
+
+.blogCardImg {
+  width: 30%;
+  height: 80%;
+  margin-top: 6%;
+  border-radius: 10px;
+}
+
+.btnContainer {
+  margin: 2% 0% 4% 0%;
+  width: 100%;
+  text-align: center;
+}
+
+.blogDate {
+  font-size: 0.9rem;
+}
+
+.blogCompany {
+  text-decoration: none;
+  color: #feca04;
+  font-size: 0.9rem;
+}
+
+.loadBtn {
+  text-decoration: none;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  color: #fe4550;
+  display: flex;
+  justify-content: center;
+  margin: 36px auto 0;
+  width: 20%;
+  padding: 1% 2%;
+  cursor: pointer;
+}
+
+.loadBtn:hover {
+  background-color: #f2f7fe;
+}
+
+@media (max-width: 1440px) {
+  .aboutPage {
+    margin: 1% 4%;
+  }
+
+  .aboutBannerLeft {
+    width: 40%;
+  }
+  .aboutBannerRight {
+    width: 73%;
+  }
+
+  .btn {
+    width: 35%;
+  }
+}
+
+@media (max-width: 1025px) {
+  .bannerHeading {
+    font-size: 3.5rem;
+  }
+  .bannerText {
+    font-size: 1rem;
+  }
+  .aboutBannerLeft {
+    color: #414141;
+    width: 45%;
+  }
+  .aboutBannerRight {
+    width: 70%;
+  }
+
+  .btn {
+    width: 35%;
+  }
+
+  .aboutServices {
+    gap: 12%;
+  }
+
+  .aboutServicesHeading {
+    font-size: 1.5rem;
+  }
+  .blogCard {
+    width: 26%;
+  }
+  .blogCardImg {
+    width: 50%;
+    height: 100%;
+    margin-top: 20%;
+  }
+}
+
+@media (max-width: 769px) {
+  .aboutPage {
+    margin: 1% 6%;
+  }
+  .aboutBanner {
+    flex-direction: column-reverse;
+  }
+  .aboutBannerLeft {
+    position: static;
+    width: 100%;
+  }
+  .aboutBannerRight {
+    width: 100vw;   
+  }
+
+  .aboutBannerImg{
+    height: 480px;
+  }
+  .bannerHeading {
+    font-size: 1.5rem;
+  }
+
+  .aboutBannerLeft {
+    margin-top: 3%;
+  }
+
+  .btn {
+    width: 30%;
+  }
+
+  .aboutServices {
+    flex-direction: column;
+    height: unset;
+  }
+
+  .aboutServicesImg {
+    height: 300px;
+    object-fit: contain;
+  }
+  .aboutServicesLeft {
+    width: 100%;
+    height: unset;
+    position: static;
+  }
+
+  .aboutServicesRight {
+    width: 100%;
+  }
+
+  .aboutServicesHeading {
+    font-size: 1.5rem;
+  }
+
+  .taglineText {
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+  }
+  .blogCard {
+    width: 100%;
+    padding-right: 10px;
+  }
+
+  .blogCardImg {
+    width: 27%;
+    margin-top: 0%;
+  }
+  .loadBtn {
+    width: 50%;
+    padding: 2% 2%;
+  }
+}
+
+@media (max-width: 541px) {
+  .btn {
+    width: 45%;
+    padding: 3% 6%;
+  }
+
+  .aboutBannerImg{
+    height: 300px;
+  }
+  .blogCardImg {
+    width: 40%;
+  }
+
+  .blogCard {
+    margin-top: 5%;
+  }
+}

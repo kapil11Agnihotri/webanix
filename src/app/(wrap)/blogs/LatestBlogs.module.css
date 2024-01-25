@@ -1,0 +1,127 @@
+.blogsSection {
+    margin-top: 3%;
+  }
+  .headingUpper {
+    padding-top: 3rem;
+  }
+  .heading {
+    font-size: 24px;
+    font-size: 24px;
+    letter-spacing: 3px;
+    line-height: 23px;
+    padding: 2% 13% 0;
+  }
+  
+  .blogsSectionHeading {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: unset;
+    margin-bottom: 1rem;
+  }
+  
+  .blogsList {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 4% 10%;
+  }
+  
+  .blogCard {
+    border: 1px solid #dddfe3;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    width: 28%;
+    margin: 1%;
+  }
+  .blogDate {
+    margin-right: 5%;
+    color: #4e5b6c;
+  }
+  
+  .blogCardUpper {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  .blogCardLower {
+    display: flex;
+    align-items: center;
+  }
+  
+  .blogCardText {
+    width: 60%;
+    padding-right: 7px;
+  }
+  
+  .blogCardImg {
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+  .blogCard a {
+    text-decoration: none;
+    color: #232323;
+  }
+  
+  .btnContainer {
+    margin: 2% 0% 4% 0%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .blogDate {
+    font-size: 0.8rem;
+  }
+  
+  .loadBtn {
+    align-items: center;
+    background: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    color: #232323;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 0;
+    min-height: 48px;
+    min-width: 250px;
+    padding: 12px 55.5px;
+    cursor: pointer;
+  }
+  
+  .loadBtn:hover {
+    background-color: #f2f7fe;
+  }
+  
+  .blogCompany {
+    text-decoration: none;
+    color: #feca04;
+    font-size: 0.9rem;
+  }
+
+  @media(max-width: 1025px){
+    .blogsList{
+      padding: 1%;
+    }
+  }
+  
+  @media screen and (max-width: 769px) {
+    .blogCard {
+      width: 48%;
+    }
+    .heading{
+      font-size: 16px;
+      padding: 4% 5% 0;
+    }
+    
+  }
+  
+  @media screen and (max-width: 576px) {
+    .blogCard {
+      width: 100%;
+    }  
+  }
+  

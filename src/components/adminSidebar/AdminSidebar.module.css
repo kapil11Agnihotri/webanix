@@ -1,0 +1,133 @@
+.sidebar{
+  height: 100%;
+  position: relative;
+  top: 0;
+}
+
+.adminSidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #282828;
+ 
+  height: 100%;
+  padding: 5%;
+  padding-top: 10%;
+ position: relative; 
+  top: 0;
+  box-shadow: 2px 0px 4px 2px rgba(0,0,0,0.2);
+-webkit-box-shadow: 2px 0px 4px 2px rgba(0,0,0,0.2);
+-moz-box-shadow: 2px 0px 4px 2px rgba(0,0,0,0.2);
+color: #ffffff;
+
+animation: slideIn 1.5s ease; /* Initial animation */
+}
+
+
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
+
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10%;
+  margin-top: 5%;
+}
+
+.title:hover{
+   color: #ff6f77 !important;
+   cursor: pointer;
+   /* background-color: #303030; */
+}
+
+.arrow{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    cursor: pointer;  
+    color: #ffffff;
+    font-size: 16px;  
+
+}
+
+.arrow:hover{
+  color: #ff6f77;
+}
+
+.mastersHeading,
+.templatesHeading {
+  cursor: pointer;
+  padding-top: 7%;
+  width: 100%;
+  font-size: 16px;
+  font-weight: unset;
+  color: #ffffff;
+  padding-left: 3%;
+}
+
+
+.mastersHeading:hover, .templatesHeading:hover{
+ color: #ff6f77;
+}
+
+.mastersHeading a{
+  color: #ffffff;
+  display: block;
+  width: 100%;
+}
+
+
+.masterLink , .templateLink{
+    margin-top: 5%;
+    width: 100%;
+  
+    color: #ffffff;
+}
+
+
+.masterLink:hover , .templateLink:hover{
+   /* background-color: #303030; */
+   cursor: pointer;
+   color: #ff6f77;
+}
+
+.masterLink a:hover , .templateLink a:hover{
+  color: #ff6f77;
+}
+
+.masterLink a, .templateLink a{
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    /* padding-left: 45px; */
+    font-size: 14px;    
+}
+.masterLink a:hover{
+  color: #ff6f77;
+}
+
+
+.mastersHeading a:hover{
+    color: #ff6f77;
+}
+
+
+
+.mastersList , .templatesList{
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+    margin-top: 4%;
+  
+    list-style-type:circle;
+}
